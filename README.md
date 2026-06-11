@@ -20,6 +20,7 @@ pip install pyautogui
    - `start_num`: The starting number for the step sequence.
    - `end_num`: The ending number for the step sequence.
    - `wait_time`: The wait time between each step iteration (in seconds).
+   - `text_template`: The template for the text to type. Use `{}` as a placeholder for the number (e.g., `"Item #{}"` will output `"Item #1"`).
    - `initial_delay`: The initial delay before the script starts typing (in seconds), giving you time to switch to the target application.
 3. Run the script from your terminal:
 
